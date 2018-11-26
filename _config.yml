@@ -16,12 +16,14 @@
 title: Sudheer Achary
 email: sudheer.achary@research.iiit.ac.in
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Sudheer Achary, a Machine learning enthusiast and 
-  a research student in Computer Vision, with major in 
-  Computer Science, International Institute of Information Technology, Hyderabad.
+  I am Sudheer Achary, a research student in Computer Vision and 
+  a Machine learning enthusiast, with major in Computer Science, 
+  International Institute of Information Technology(IIIT), Hyderabad.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sudheerachary.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sudheerachary
+linkedin_username:  sudheerachary
+facebook_username:  sudheer.jarvis
 
 # Build settings
 markdown: kramdown

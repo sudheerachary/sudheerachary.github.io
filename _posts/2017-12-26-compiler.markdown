@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Flat-B Compiler"
+date:   2017-12-26 11:21:02 +0530
+categories: jekyll update
+---
+
+Flat-B is a Programming Language mainly consists of declaration block where all the used variables are declared, code block consists of program logic expressed in multiple arithmetic expressions, assignments, different kind of loops.
+
+## Dependencies
+- [Flex](https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)) - A Lexical Analyzer
+{% highlight bash %}
+sudo apt install flex
+{% endhighlight %}
+
+- [Bison](https://www.gnu.org/software/bison0/) - A Parser Generator
+{% highlight bash %}
+sudo apt install bison
+{% endhighlight %}
+    
+- [LLVM](https://llvm.org/) - A Low Level Virtual Machine Used for IR Generation
+	- Installation instructions can be followed as [here](https://apt.llvm.org/)
+
+## Instructions to run
+ - Make the Flat-B Compiler
+{% highlight bash %}make{% endhighlight %}
+ - Run the Flat-B Compiler
+{% highlight bash %}./bcc.sh path_to_test_file{% endhighlight %}
+    
+### View Generated IR
+{% highlight bash %}./bcc path_to_test_file{% endhighlight %}
+ 
+### Clean Generated Files
+{% highlight bash %}make veryclean{% endhighlight %}
+
