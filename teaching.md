@@ -5,14 +5,6 @@ permalink: /teaching/
 ---
 <hr>
 
-## Optimization Methods - Spring 2018-19
-
-### Topics
-
-<hr>
-
-<hr>
-
 ## Statistical Methods in AI - Monsoon 2018-19
 
 The course serves as an introduction to statistical methods used in machine learning and AI. The topics covered includes pattern representation, classification, and clustering. A good working knowledge of Linear Algebra and Probability and Statistics is expected from the students as a prerequisite.
